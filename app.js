@@ -33,3 +33,55 @@
 //   weather(40);
 //   weather(60);
 //   weather(90);
+
+
+// function foo(){
+//     for (var i=0; i<5 ; i++){
+//       console.log(i);
+//     }
+//     console.log(i);
+//   }
+  
+//   foo();
+
+
+// const student = {
+//     ID: '21',
+//     name: 'Jhon',
+//     GPA: '3.0',
+//   };
+  
+//   const id = student.ID;
+//   const name = student.name;
+//   const GPA = student.GPA;
+  
+//   console.log(id);
+//   console.log(name);
+//   console.log(GPA);
+
+
+// const student = {
+//     ID: '21',
+//     name: 'Jhon',
+//     GPA: '3.0',
+//   };
+  
+//   const {ID, name, GPA} = student;
+
+
+//   const student = {
+//     ID: '21',
+//     name: 'Jhon',
+//     GPA: '3.0',
+//   };
+  
+//   const {name:n} = student;
+//   console.log(n);
+
+
+//   // no destructuring
+// const users = this.state.users;
+// const counter = this.state.counter;
+
+// // destructuring
+// const { users, counter } = this.state;
